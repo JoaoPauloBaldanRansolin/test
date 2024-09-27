@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.cadastrados {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.item-cadastrado {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-editar {
+    background-color: #444;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+    background-color: #666;
+}
