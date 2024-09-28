@@ -1,0 +1,26 @@
+input[type="text"], input[type="password"] {
+  width: 200px; /* Define a largura para 200 pixels */
+  padding: 10px;
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* #acerca_de {
+  position: absolute;
+  width: 440px;
+  height: 200px;
+  border: 1px solid #800000;
+
+  input[type="text"],
+  input[type="password"] {
+    width: 200px;
+    /* Define a largura para 200 pixels */
+    /* padding: 10px;
+    box-sizing: border-box; */
+    /* Inclui padding e border na largura total */
+  /* }
+} */
+
+/* .div-ca {
+  background-image: url("../0bmp/FUNDO.JPG");
+  background-color: #cccccc;
+/* } */ */ */
