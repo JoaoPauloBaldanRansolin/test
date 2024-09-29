@@ -295,6 +295,7 @@ function salvar(){
 	vajaxmot = ajaxInit();
 
 	vajaxmot.open('get',"motorista_sql2.php?&sq=salvar"
+        +"&cod="+document.getElementById('cod').value
 		+"&id="+document.getElementById('id').value
 		+"&nome="+document.getElementById('nome').value
 		+"&datanascimento="+document.getElementById('datanascimento').value
